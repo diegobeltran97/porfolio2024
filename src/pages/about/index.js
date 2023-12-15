@@ -9,8 +9,10 @@ import {
   skills,
   services,
 } from "../../content_option";
+import { useTranslation } from "react-i18next";
 
 export const About = () => {
+  const { t } = useTranslation();
   return (
     <HelmetProvider>
       <Container className="About-header">
@@ -21,32 +23,34 @@ export const About = () => {
         </Helmet>
         <Row className="mb-5 mt-3 pt-md-3">
           <Col lg="8">
-            <h1 className="display-4 mb-4">About me</h1>
+            <h1 className="display-4 mb-4"> {t("About me")}</h1>
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
         <Row className="sec_sp">
           <Col lg="5">
-            <h3 className="color_sec py-4">{dataabout.title}</h3>
+            <h3 className="color_sec py-4">{t("About me")}</h3>
           </Col>
           <Col lg="7" className="d-flex align-items-center">
             <div>
-              <p>{dataabout.aboutme}</p>
+              <p>{t("About me description")}</p>
             </div>
           </Col>
         </Row>
         <Row className=" sec_sp">
           <Col lg="5">
-            <h3 className="color_sec py-4">Work Timline</h3>
+            <h3 className="color_sec py-4">{t(`Work Timline`)}</h3>
           </Col>
           <Col lg="7">
             <table className="table caption-top">
               <tbody>
                 {worktimeline.map((data, i) => {
+                  let dataJobTitle = t(`dataJobTitle${i}`);
+                  let dataJobTitleWhere = t(`dataJobTitleWhere${i}`);
                   return (
                     <tr key={i}>
-                      <th scope="row">{data.jobtitle}</th>
-                      <td>{data.where}</td>
+                      <th scope="row">{dataJobTitle}</th>
+                      <td>{dataJobTitleWhere}</td>
                       <td>{data.date}</td>
                     </tr>
                   );
@@ -57,7 +61,7 @@ export const About = () => {
         </Row>
         <Row className="sec_sp">
           <Col lg="5">
-            <h3 className="color_sec py-4">Skills</h3>
+            <h3 className="color_sec py-4"> {t(`Skills`)}</h3>
           </Col>
           <Col lg="7">
             {skills.map((data, i) => {
@@ -81,14 +85,16 @@ export const About = () => {
         </Row>
         <Row className="sec_sp">
           <Col lang="5">
-            <h3 className="color_sec py-4">services</h3>
+            <h3 className="color_sec py-4">{t(`Services`)}</h3>
           </Col>
           <Col lg="7">
             {services.map((data, i) => {
+              let serviceTitle = t(`serviceTitle${i}`);
+              let serviceDescription = t(`serviceDescription${i}`);
               return (
                 <div className="service_ py-4" key={i}>
-                  <h5 className="service__title">{data.title}</h5>
-                  <p className="service_desc">{data.description}</p>
+                  <h5 className="service__title">{serviceTitle}</h5>
+                  <p className="service_desc">{serviceDescription}</p>
                 </div>
               );
             })}
