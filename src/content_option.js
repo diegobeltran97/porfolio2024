@@ -94,57 +94,57 @@ const dataportfolio = [
     img: waterWell,
     description:
       "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    link: "https://www.waterwellonline.com/",
   },
   {
     img: doctorsAtHome,
     description:
       "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    link: "https://www.doctorsathome.com/",
   },
   {
     img: colibid,
     description:
       "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    link: "https://colibid.com/",
   },
   {
     img: devMediacomp,
     description:
       "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    link: "https://www.devmediacompany.com/",
   },
   {
     img: suspencionesToyopana,
     description:
       "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    link: "https://suspensionestoyopana.com/",
   },
   {
     img: tourAventuras,
     description:
       "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    link: "https://touraventuraspty.com/",
   },
 ];
 
 const contactConfig = {
-  YOUR_EMAIL: "name@domain.com",
-  YOUR_FONE: "(555)123-4567",
+  YOUR_EMAIL: "contact@diegosastoque.com",
+
   description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    "Contact me anytime. I am open to hearing any idea and collaborating with knowledge to provide the best solution.",
   // creat an emailjs.com account
   // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-  YOUR_SERVICE_ID: "service_id",
-  YOUR_TEMPLATE_ID: "template_id",
-  YOUR_USER_ID: "user_id",
+  YOUR_SERVICE_ID: "service_1gthz8i",
+  YOUR_TEMPLATE_ID: "template_pr45wrp",
+  YOUR_USER_ID: "ms4eDcJ7fHnYHLT0K",
 };
 
 const socialprofils = {
-  github: "https://github.com",
-  facebook: "https://facebook.com",
-  linkedin: "https://linkedin.com",
+  github: "https://github.com/diegobeltran97",
+  linkedin: "https://www.linkedin.com/in/diego-sastoque97/",
   twitter: "https://twitter.com",
+  medium: "https://medium.com/@diegobeltran97",
 };
 export {
   meta,
