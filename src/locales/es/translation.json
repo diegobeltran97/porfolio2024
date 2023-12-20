@@ -1,4 +1,6 @@
 {
+  "Home": "Inicio",
+  "About": "Acerca de mi",
   "title": "Diego Sastoque",
   "description_first": "Desarrollador de Software",
   "description_second": "Entusiasta",
@@ -29,11 +31,13 @@
   "portfolioDescription4": "Sitio web de WordPress",
   "portfolioDescription5": "Sitio web de React",
   "View project": "Ver proyecto",
-  "Contact": "Contacto",
   "Contact me": "Contáctame",
   "Get in touch": "Ponte en contacto",
   "Email": "Correo Electrónico",
-  "Contact": "Contact",
+  "Contact": "Contacto",
   "Send": "Enviar",
-  "Contact me anytime. I am open to hearing any idea and collaborating with knowledge to provide the best solution.": "Si tienes un proyecto en mente o necesitas asesoramiento para mejorar tu empresa, no dudes en contactarme. Estoy dispuesto a escuchar tus ideas y trabajar juntos para convertirlas en realidades exitosas."
+  "Contact me anytime. I am open to hearing any idea and collaborating with knowledge to provide the best solution.": "Si tienes un proyecto en mente o necesitas asesoramiento para mejorar tu empresa, no dudes en contactarme. Estoy dispuesto a escuchar tus ideas y trabajar juntos para convertirlas en realidades exitosas.",
+  "Name": "Nombre",
+  "Message": "Mensaje",
+  "Follow Me": "Redes sociales"
 }

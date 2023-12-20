@@ -1,4 +1,6 @@
 {
+  "Home": "Home",
+  "About": "About",
   "title": "Diego Sastoque",
   "description_first": "Software Developer",
   "description_second": "Enthusiast",
@@ -35,5 +37,8 @@
   "Email": "Email",
   "Send": "Send",
   "Contact me anytime. I am open to hearing any idea and collaborating with knowledge to provide the best solution.": "Contact me anytime. I am open to hearing any idea and collaborating with knowledge to provide the best solution.",
-  "Follow me": "Follow me"
+  "Follow me": "Follow me",
+  "Name": "Name",
+  "Message": "Message",
+  "Follow Me": "Follow me"
 }

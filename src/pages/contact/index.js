@@ -122,7 +122,7 @@ export const ContactUs = () => {
                     className="form-control"
                     id="name"
                     name="name"
-                    placeholder="Name"
+                    placeholder={t("Name")}
                     value={formData.name || ""}
                     type="text"
                     required
@@ -134,7 +134,7 @@ export const ContactUs = () => {
                     className="form-control rounded-0"
                     id="email"
                     name="email"
-                    placeholder="Email"
+                    placeholder={t("Email")}
                     type="email"
                     value={formData.email || ""}
                     required
@@ -146,7 +146,7 @@ export const ContactUs = () => {
                 className="form-control rounded-0"
                 id="message"
                 name="message"
-                placeholder="Message"
+                placeholder={t("Message")}
                 rows="5"
                 value={formData.message}
                 onChange={handleChange}
