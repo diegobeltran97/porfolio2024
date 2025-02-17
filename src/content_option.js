@@ -32,9 +32,14 @@ const dataabout = {
 };
 const worktimeline = [
   {
+    jobtitle: "Sofware Engineer",
+    where: "Daugherty / CGI",
+    date: "2024 / 2025",
+  },
+  {
     jobtitle: "Designer of week",
     where: "YAdfi",
-    date: "2023",
+    date: "2024",
   },
   {
     jobtitle: "Designer of week",
@@ -54,20 +59,20 @@ const skills = [
     value: 80,
   },
   {
-    name: "React",
-    value: 80,
+    name: "Typescrypt",
+    value: 70,
   },
   {
     name: "Node Js",
     value: 60,
   },
   {
-    name: "Vue js",
-    value: 40,
+    name: "Python",
+    value: 35,
   },
   {
-    name: "Python",
-    value: 30,
+    name: "Java",
+    value: 35,
   },
 ];
 
